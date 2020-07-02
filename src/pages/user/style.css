@@ -1,0 +1,34 @@
+.informations{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.informations img{
+    width: 400px;
+    margin-left: 10px;
+}
+
+.informations a{
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: skyblue;
+    transition: all 0.3s;
+}
+
+.informations a:hover{
+    background-color: skyblue;
+    color: white;
+}
