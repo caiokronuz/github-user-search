@@ -4,7 +4,7 @@ import './style.css';
 export default class Main extends Component{
     redirect = () => {
         const name = document.getElementById('txt-name').value;
-        window.location.assign(`http://localhost:3000/user/${name}`)           
+        window.location.assign(`http://caiokronuz.github.io/github-user-search/user/${name}`)           
     }
 
     render(){

@@ -13,7 +13,7 @@ export default class User extends Component{
             this.setState({datas: response.data});  
         }catch(error){
             alert('Usuário não encontrado.')
-            window.location.replace('http://localhost:3000')
+            window.location.replace(`http://caiokronuz.github.io/github-user-search/`)
         }
         
     }
